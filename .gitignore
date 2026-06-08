@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+env/
+
+# Environment variables - NEVER commit this
+.env
+
+# Uploaded PDFs (temporary files)
+backend/uploaded_pdfs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# HuggingFace model cache
+.cache/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded PDFs
+backend/uploaded_pdfs/*
+!backend/uploaded_pdfs/.gitkeep
